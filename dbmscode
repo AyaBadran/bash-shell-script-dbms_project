@@ -10,13 +10,13 @@ fi
 echo "~~~~~~~~~~~~~~ WELCOME TO DBMS ~~~~~~~~~~~~~~"
 
 function Main_Menu {
-  echo "***********************************"
+  echo "*****************Main_Menu******************"
   echo " 1) Create Database"
   echo " 2) Connect Database"
   echo " 3) List Databases"
   echo " 4) Drop Database"
   echo " 5) Exit DBMS"
-  echo "-----------------------------------"
+  echo "--------------------------------------------"
   echo ">>> Please Enter your choice: "
   read choice
   case $choice in
@@ -30,7 +30,7 @@ function Main_Menu {
 }
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 function Tables_Menu {
-  echo "***********************************"
+  echo "******************Tables_Menu*****************"
   echo " 1) Create New Table"
   echo " 2) List All Tables"
   echo " 3) Insert Into Table"
@@ -40,8 +40,8 @@ function Tables_Menu {
   echo " 7) Drop Table"
   echo " 8) Main Menu"
   echo " 9) Exit DBMS"
-  echo "-----------------------------------"
-  echo "Please Enter your choice:  "
+  echo "----------------------------------------------"
+  echo ">>>Please Enter your choice:  "
   read choice
   case $choice in
     1) Create_Table  ;;
